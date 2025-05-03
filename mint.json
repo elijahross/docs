@@ -1,0 +1,135 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Immotech",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "https://ml-canvas.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo_W.c05b5550.png&w=640&q=75"
+  },
+  "openapi": "/api-reference/openapi.json",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#FFA726",
+    "light": "#FFA726",
+    "dark": "#FFA726",
+    "anchors": {
+      "from": "#FFA726",
+      "to": "#FFA726"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@ml-canvas.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://ml-canvas.com/"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Dashboard",
+      "icon": "table-columns",
+      "url": "https://mintlify.com/docs"
+    },
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://mintlify.com/docs"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://mintlify.com/blog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get-started/introduction",
+        "get-started/quickstart",
+        "get-started/connectplatform",
+        "get-started/createform",
+        "get-started/createlisting",
+        "get-started/requestsignature",
+        "get-started/setregiontracking",
+        "get-started/configureagent"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/listing",
+        "essentials/form",
+        "essentials/platform",
+        "essentials/searchagents"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction",
+        {
+          "group": "Activity",
+          "pages": [
+            "api-reference/endpoints/get-activity"
+          ]
+        },
+        {
+          "group": "Applicants",
+          "pages": [
+            "api-reference/endpoints/get-applicantsuser",
+            "api-reference/endpoints/patch-applicants",
+            "api-reference/endpoints/post-applicants"
+          ]
+        },
+        {
+          "group": "Appointments",
+          "pages": [
+            "api-reference/endpoints/get-appointments",
+            "api-reference/endpoints/delete-appointments",
+            "api-reference/endpoints/post-appointments"
+          ]
+        },
+        {
+          "group": "Appointment Category",
+          "pages": [
+            "api-reference/endpoints/get-appointmentscategory",
+            "api-reference/endpoints/delete-appointmentscategory",
+            "api-reference/endpoints/post-appointmentscategory",
+            "api-reference/endpoints/patch-appointmentscategory"
+          ]
+        },
+        {
+          "group": "Bookings",
+          "pages": [
+            "api-reference/endpoints/get-bookings",
+            "api-reference/endpoints/post-bookings",
+            "api-reference/endpoints/put-bookings"
+          ]
+        },
+        {
+          "group": "From Data",
+          "pages": [
+            "api-reference/endpoints/get-formdata"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/example/activity",
+        "api-reference/example/applicants",
+        "api-reference/example/appointments"
+      ]
+    }
+  ]
+}
