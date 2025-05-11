@@ -3,7 +3,7 @@
   "name": "Immotech",
   "logo": {
     "dark": "/logo/dark.svg",
-    "light": "https://ml-canvas.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo_W.c05b5550.png&w=640&q=75"
+    "light": "/logo/light.svg"
   },
   "openapi": "/api-reference/openapi.json",
   "favicon": "/favicon.svg",
@@ -24,7 +24,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://ml-canvas.com/"
+    "url": "https://app.immotech.live/"
   },
   "tabs": [
     {
@@ -36,17 +36,17 @@
     {
       "name": "Dashboard",
       "icon": "table-columns",
-      "url": "https://mintlify.com/docs"
+      "url": "https:/app.immotech.live"
     },
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.immotech.live"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://immotech.live/blog"
     }
   ],
   "navigation": [
